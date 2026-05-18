@@ -1,0 +1,79 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "x-gemini-service-tier": "standard",
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Mon, 18 May 2026 08:06:23 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=2733",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": null,
+            "function_response": null,
+            "inline_data": null,
+            "text": "In simple terms, a **token** is like a **digital placeholder** or a **representation of something else**.\n\nThink of it like this:\n\n*   **In a game:** You might have a plastic token that represents your player on the board. The token itself isn't valuable, but it stands for your character and their progress.\n*   **In a casino:** You exchange your real money for casino chips (tokens). You use these chips to play games, and you can exchange them back for real money. The chip is a token for your money.\n*   **Online logins:** When you log into a website, you might get a \"session token.\" This token is a temporary digital ticket that proves you're logged in. The website uses this token to recognize you without you having to re-enter your password every time.\n\n**Key ideas to remember about tokens:**\n\n*   **They represent something:** They don't have intrinsic value on their own, but they stand for something else that does (money, access, a piece in a game, a right, etc.).\n*   **They can be used for exchange or access:** You can often trade tokens for something else or use them to get into a place or use a service.\n*   **They can be digital or physical:** While often used in digital contexts now, the concept applies to physical objects too.\n\nSo, whenever you hear \"token,\" think of a small, representative item that stands for something more significant.",
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null,
+            "tool_call": null,
+            "tool_response": null,
+            "part_metadata": null
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "grounding_metadata": null,
+      "avg_logprobs": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null,
+      "url_context_metadata": null
+    }
+  ],
+  "create_time": null,
+  "model_version": "gemini-2.5-flash-lite",
+  "prompt_feedback": null,
+  "response_id": "fcgKasLyC9CkqfkPkMTlyAQ",
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 309,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 10,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 10
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 319,
+    "traffic_type": null
+  },
+  "model_status": null,
+  "automatic_function_calling_history": [],
+  "parsed": null
+}

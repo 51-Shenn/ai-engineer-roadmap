@@ -1,0 +1,36 @@
+{
+  "history": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "i am john"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Hello John."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "who am i"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "You are John."
+        }
+      ]
+    }
+  ]
+}
