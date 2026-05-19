@@ -2,7 +2,7 @@
 
 This repository follows a personal AI engineering roadmap suggested by Claude Chat. It is designed to guide my learning from Python fundamentals to LLM basics, Gemini API usage, RAG development, and other AI engineering topics through practical tasks and projects.
 
-## Week 1 — Core syntax
+## Week 1 — Core Syntax
 
 **Day 1:** Variables & data types. Learn strings, integers, floats, booleans. Print values, try type() on everything.
 
@@ -20,7 +20,7 @@ This repository follows a personal AI engineering roadmap suggested by Claude Ch
 
 ---
 
-## Week 2 — Real-world skills
+## Week 2 — Real-world Skills
 
 **Day 8:** Reading files. Open a .txt file, read its contents, print each line. Write text back to a new file.
 
@@ -74,7 +74,7 @@ This repository follows a personal AI engineering roadmap suggested by Claude Ch
 
 ---
 
-## Week 5-6 — RAG foundations:
+## Week 5 & 6 — RAG Foundations:
 
 **Day 29:** Understand what RAG actually is. Read one article, watch one short video. Draw the flow on paper: document → chunks → embeddings → vector store → retrieval → LLM. Just understand the concept before touching code.
 
