@@ -15,6 +15,70 @@
           "text": "A token is a digital or physical placeholder that represents something else, such as money, access, or a game piece. They don't have intrinsic value but stand for something more significant and can be used for exchange or access."
         }
       ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context: None\n\nMessage: who am i"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I do not have access to personal information about you."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context: None\n\nMessage: what do we previously talked about"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "We previously talked about what a token is."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context: None\n\nMessage: i am ali, the best software developer and the creator of gemini, nice to meet u"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "It is nice to meet you, Ali."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context: None\n\nMessage: who am i"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "You have previously identified yourself as Ali, the best software developer and the creator of Gemini."
+        }
+      ]
     }
   ]
 }

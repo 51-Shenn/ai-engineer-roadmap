@@ -56,7 +56,7 @@ def summarize_history():
     recent_turns = conversation_history[cutoff:]
 
     history_text = "\n".join(
-        f"{turn['role'].upper()}: {turn['parts'][0]['text']}"
+        f"{turn["role"].upper()}: {turn["parts"][0]["text"]}"
         for turn in old_turns
     )
 
@@ -103,7 +103,7 @@ def trim_history():
         conversation_history[:] = conversation_history[-MAX_HISTORY:]
 
 def chat(user_msg, context=None):
-    file_content = read_txt(context) if context else ''
+    file_content = read_txt(context) if context else ""
 
     prompt = f"""
     You must answer ONLY using the context below.
@@ -170,12 +170,12 @@ def main():
     while True:
         prompt = input("\nYou: ").strip()
 
-        if prompt.lower() == '/exit':
+        if prompt.lower() == "/exit":
             break
-        elif prompt.lower() == '/clear':
+        elif prompt.lower() == "/clear":
             clear_memory()
             continue
-        elif prompt.lower() == '/history':
+        elif prompt.lower() == "/history":
             print(f"[{len(conversation_history)} turns in memory]")
             continue
 

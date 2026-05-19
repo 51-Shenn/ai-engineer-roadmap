@@ -1,35 +1,35 @@
 import os
 
-os.system('clear')
+os.system("clear")
 
-file_path = 'files/file.txt'
+file_path = "files/file.txt"
 
 # read
-with open(file_path, 'r') as f:
+with open(file_path, "r") as f:
     # content = f.read() # reads all content
     # content = f.readline() # only read the first line of the file
     content = f.readlines() # returns a list of lines in the file
     print(content)
 
 # overwrite
-with open(file_path, 'w') as f:
-    f.write('Hello python, wassup!\n')
+with open(file_path, "w") as f:
+    f.write("Hello python, wassup!\n")
 
 # append
-with open(file_path, 'a') as f:
-    f.write('This is after append!\n')
+with open(file_path, "a") as f:
+    f.write("This is after append!\n")
 
 # read + write
-with open(file_path, 'r+') as f:
+with open(file_path, "r+") as f:
     content = f.read()
     print(content.strip())
-    f.write('This is inserted using r+\n')
+    f.write("This is inserted using r+\n")
 
     f.seek(0) # this will let the pointer to go back to the start
     new = f.readlines()
     print(new)
 
-with open('files/file-create.txt', 'w+') as f:
+with open("files/file-create.txt", "w+") as f:
     pass
 
 # r+ (read + write, no overwrite)

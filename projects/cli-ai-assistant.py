@@ -5,8 +5,8 @@ import os
 
 load_dotenv()
 
-API_KEY_1 = os.getenv("GEMINI_API_KEY_1")
-API_KEY_2 = os.getenv("GEMINI_API_KEY_1")
+API_KEY_1 = os.getenv("GEMINI_API_KEY_2")
+API_KEY_2 = os.getenv("GEMINI_API_KEY_2")
 if not API_KEY_1 or not API_KEY_2:
     raise ValueError("API key not found.")
 
@@ -66,7 +66,7 @@ def summarize():
     recent_turns = conversation_history[cutoff:]
 
     history_text = "\n".join(
-        f"{turn['role'].upper()}: {turn['parts'][0]['text']}"
+        f"{turn["role"].upper()}: {turn["parts"][0]["text"]}"
         for turn in old_turns
     )
 
@@ -108,7 +108,7 @@ def chat(message, context=None):
 
     try:
         stream = client_1.models.generate_content_stream(
-            model="gemini-2.5-flash",
+            model="gemini-2.5-flash-lite",
             contents=conversation_history,
             config={
                 "system_instruction": (

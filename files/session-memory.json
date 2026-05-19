@@ -4,7 +4,7 @@
       "role": "user",
       "parts": [
         {
-          "text": "i am john"
+          "text": "[Summary of earlier conversation]\nHere's a summary of the conversation:\n\n*   John confirmed his identity.\n*   The AI acknowledged John's identity.\n*   John is now inquiring about the AI's knowledge of him and his past requests."
         }
       ]
     },
@@ -12,7 +12,7 @@
       "role": "model",
       "parts": [
         {
-          "text": "Hello John."
+          "text": "I know you are John and you asked me to identify you."
         }
       ]
     },
@@ -20,7 +20,7 @@
       "role": "user",
       "parts": [
         {
-          "text": "who am i"
+          "text": "i am a software engineer"
         }
       ]
     },
@@ -28,7 +28,23 @@
       "role": "model",
       "parts": [
         {
-          "text": "You are John."
+          "text": "Noted."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "who am i and what do i do"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "You are John, a software engineer."
         }
       ]
     }

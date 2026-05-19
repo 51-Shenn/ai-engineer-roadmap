@@ -5,17 +5,17 @@ import os
 
 load_dotenv()
 
-client = genai.Client(api_key=os.getenv('GEMINI_API_KEY_1'))
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY_1"))
 
 res = client.models.generate_content(
-    model='gemini-2.5-flash-lite',
-    contents='Hello'
+    model="gemini-2.5-flash-lite",
+    contents="Hello"
 )
 
-print(f'Text: {res.text}')
+print(f"Text: {res.text}")
 # Text: Hello! How can I help you today?
 
-print(f'Candidates: {res.candidates}')
+print(f"Candidates: {res.candidates}")
 # Candidates: [Candidate(
 #   content=Content(
 #     parts=[
@@ -29,18 +29,18 @@ print(f'Candidates: {res.candidates}')
 #   index=0
 # )]
 
-print(f'Candidate Content 0: {res.candidates[0].content}')
+print(f"Candidate Content 0: {res.candidates[0].content}")
 # Candidate Content 0: parts=[Part(
 #   text='Hello! How can I help you today?'
 # )] role='model'
 
-print(f'Usage data: {res.usage_metadata}')
+print(f"Usage data: {res.usage_metadata}")
 # Usage data: cache_tokens_details=None cached_content_token_count=None candidates_token_count=9 candidates_tokens_details=None prompt_token_count=2 prompt_tokens_details=[ModalityTokenCount(
 #   modality=<MediaModality.TEXT: 'TEXT'>,
 #   token_count=2
 # )] thoughts_token_count=26 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=37 traffic_type=None
 
-print(f'JSON: {json.dumps(res.model_dump(), indent=2)}')
+print(f"JSON: {json.dumps(res.model_dump(), indent=2)}")
 # JSON: {
 #   "sdk_http_response": {
 #     "headers": {
@@ -127,7 +127,7 @@ clean = {
     "model": res.model_version
 }
 
-print(f'Clean format: {json.dumps(clean, indent=2)}')
+print(f"Clean format: {json.dumps(clean, indent=2)}")
 # Clean format: {
 #   "text": "Hello there! How can I help you today?",
 #   "tokens": 34,

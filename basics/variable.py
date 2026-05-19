@@ -5,4 +5,4 @@ l = "lucky"
 var = [i, j, k, l]
 
 for v in var:
-    print(f'[{v}]: {type(v)}')
+    print(f"[{v}]: {type(v)}")

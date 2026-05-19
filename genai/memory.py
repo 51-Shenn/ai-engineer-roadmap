@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv('GEMINI_API_KEY_1')
+api_key = os.getenv("GEMINI_API_KEY_1")
 if not api_key:
     raise ValueError("API key not found!")
 
@@ -21,8 +21,8 @@ def trim_history():
 def chat(user_message):
     conversation_history.append(
         {
-            'role': 'user',
-            'parts': [{'text': user_message}]
+            "role": "user",
+            "parts": [{"text": user_message}]
         }
     )
 
@@ -30,7 +30,7 @@ def chat(user_message):
 
     try:
         res = client.models.generate_content(
-            model='gemini-2.5-flash-lite',
+            model="gemini-2.5-flash-lite",
             contents=conversation_history,
             config={
                 "system_instruction": """
@@ -42,26 +42,26 @@ def chat(user_message):
             }
         )
 
-        print('\nGemini: ' + res.text)
+        print("\nGemini: " + res.text)
         conversation_history.append(
             {
-                'role': 'model',
-                'parts': [{'text': res.text}]
+                "role": "model",
+                "parts": [{"text": res.text}]
             }
         )
 
     except errors.APIError as e:
-        print(f'API error {e.code}: {e.message}')
+        print(f"API error {e.code}: {e.message}")
         conversation_history.pop()
 
     except Exception as e:
-        print(f'Unexpected error: {e}')
+        print(f"Unexpected error: {e}")
         conversation_history.pop()
 
 while True:
-    prompt = input('\nYou: ')
+    prompt = input("\nYou: ")
 
-    if (prompt.lower() == '/exit' or prompt.lower() == '/quit'):
+    if (prompt.lower() == "/exit" or prompt.lower() == "/quit"):
         break
 
     chat(prompt)
