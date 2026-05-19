@@ -1,0 +1,15 @@
+Imagine you're at an arcade. You give the cashier real money and they give you **tokens**.
+
+In a simple term, a **token** is like a **special kind of "credit" or "ticket"** that you can use for something specific.
+
+Here's why it's like an arcade token:
+
+*   **It represents value:** Just like an arcade token lets you play a game, a digital token lets you do something or access something.
+*   **It's for a specific purpose:** You can't use an arcade token at a grocery store. Similarly, digital tokens are usually designed for a particular purpose within a specific system.
+*   **It's often digital:** While arcade tokens are physical, most "tokens" we talk about today are digital, existing on computers.
+
+**Think of it like a digital coupon or a special pass.**
+
+Instead of saying "I want to access the premium features of this app," you might say "I'll use my token to access the premium features."
+
+The exact meaning can vary a little depending on where you hear the word, but the core idea of a special credit or ticket for a specific purpose remains the same.

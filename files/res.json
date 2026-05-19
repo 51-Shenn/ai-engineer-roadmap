@@ -1,0 +1,79 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "x-gemini-service-tier": "standard",
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 19 May 2026 01:57:10 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=3806",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": null,
+            "function_response": null,
+            "inline_data": null,
+            "text": "Imagine you're at an arcade. You give the cashier real money and they give you **tokens**.\n\nIn a simple term, a **token** is like a **special kind of \"credit\" or \"ticket\"** that you can use for something specific.\n\nHere's why it's like an arcade token:\n\n*   **It represents value:** Just like an arcade token lets you play a game, a digital token lets you do something or access something.\n*   **It's for a specific purpose:** You can't use an arcade token at a grocery store. Similarly, digital tokens are usually designed for a particular purpose within a specific system.\n*   **It's often digital:** While arcade tokens are physical, most \"tokens\" we talk about today are digital, existing on computers.\n\n**Think of it like a digital coupon or a special pass.**\n\nInstead of saying \"I want to access the premium features of this app,\" you might say \"I'll use my token to access the premium features.\"\n\nThe exact meaning can vary a little depending on where you hear the word, but the core idea of a special credit or ticket for a specific purpose remains the same.",
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null,
+            "tool_call": null,
+            "tool_response": null,
+            "part_metadata": null
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "grounding_metadata": null,
+      "avg_logprobs": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null,
+      "url_context_metadata": null
+    }
+  ],
+  "create_time": null,
+  "model_version": "gemini-2.5-flash-lite",
+  "prompt_feedback": null,
+  "response_id": "c8MLasDzCtOajuMPg7SpIA",
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 249,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 10,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 10
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 259,
+    "traffic_type": null
+  },
+  "model_status": null,
+  "automatic_function_calling_history": [],
+  "parsed": null
+}

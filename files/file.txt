@@ -1,0 +1,3 @@
+Hello python, wassup!
+This is after append!
+This is inserted using r+
