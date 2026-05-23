@@ -7,13 +7,13 @@ class Embeddings:
         self.api_key = api_key
         self.client = genai.Client(api_key=self.api_key)
 
-    def read_file(self, filepath: str="files/trading.md"):
-        if not os.path.exists(filepath):
+    def read_file(self, file_path: str="files/trading.md"):
+        if not os.path.exists(file_path):
             print("Unable to read file. Please try again.")
             return
 
         try:
-            with open(filepath, "r", encoding="utf-8") as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 return f.read()
         except Exception as e:
             print("Error: ", e)
