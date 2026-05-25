@@ -1,8 +1,6 @@
 from dotenv import load_dotenv
 import google.genai as genai
 import chromadb
-import json
-import os
 
 # client = chromadb.Client()
 client = chromadb.PersistentClient(path="files/chromadb")

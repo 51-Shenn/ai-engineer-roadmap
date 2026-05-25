@@ -14,7 +14,8 @@ genai/
 ├── character-based-chunking.py     # split text into fixed-size character chunks
 ├── embeddings.py                   # generate vector embeddings from text chunks
 ├── cosine-similarity.py            # algorithm to measure similarity between embeddings
-└── vector-store.py                 # store and query vectors
+├── vector-store.py                 # store and query vectors
+└── vector-database.py              # examples of using chromadb as vector database
 ```
 
 ## Learning Outcomes
